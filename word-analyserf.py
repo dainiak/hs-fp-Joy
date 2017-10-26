@@ -13,3 +13,4 @@ sorted_list_count=sorted(list_count.items(), key=operator.itemgetter(1))
 final=sorted_list_count[::-1]
 for word in final:
     print (f'{word[0]} : {word[1]}')
+#end
